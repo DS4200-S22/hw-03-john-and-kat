@@ -1,14 +1,17 @@
-<!DOCTYPE html>
-<html> 
+h1 {
+    font-family: Arial;
+    text-align: center;
+}
 
-<head>
-    <meta charset=utf-8/>
-</head>
+body {
+    font-family: Arial;
+}
 
-
-<body>
-
-
-</body>
-
-</html>
+.flex-container {
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+   
+.flex-container >*{
+}
