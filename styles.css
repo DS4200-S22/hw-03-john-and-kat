@@ -8,12 +8,7 @@ body {
 }
 
 svg {
-    border: 2px solid black;
-}
-
-img {
-    widht: 80%;
-    length:  80%;
+    border: 2px solid white;
 }
 
 .div-shapes {
