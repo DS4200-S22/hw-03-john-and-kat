@@ -7,8 +7,37 @@ body {
     font-family: Arial;
 }
 
+svg {
+    border: 2px solid white
+}
+
 .flex-container {
-  width: 200px;
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px 50px;
+}
+
+.flex-item {
+    border: 5px solid black;
+    flex-grow: 1;
+}
+
+.my-rect {
+  fill: rgb(127, 0, 0);
+  transition: all 250ms linear;
+}
+
+.my-rect:hover {
+  fill: rgb(255, 0, 0);
+}
+
+.my-circ {
+  fill: rgb(0, 0, 127);
+  transition: all 250ms linear;
+}
+
+.my-circ:hover {
+  fill: rgb(0, 0, 255);
 }
