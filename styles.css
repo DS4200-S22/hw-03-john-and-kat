@@ -52,3 +52,14 @@ img {
 .my-circ:hover {
   fill: rgb(0, 0, 255);
 }
+
+.bullted-list {
+    text-align: center;
+}
+
+.ul-item { 
+    display: inline-block;
+    text-align: left;
+    font-weight: normal;
+}
+
