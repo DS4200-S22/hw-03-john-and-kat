@@ -6,6 +6,8 @@ h1 {
 img {
     width: 500px;
     height: auto;
+    text-align: center;
+    margin: 2% auto;
 }
 
 body {
@@ -28,11 +30,13 @@ svg {
   align-items: flex-start;
   justify-content: flex-start;
   gap: 50px 50px;
+  box-sizing: content-box;
 }
 
 .flex-item {
     border: 5px solid black;
     flex-grow: 1;
+    min-width: 500px;
 }
 
 .my-rect {
