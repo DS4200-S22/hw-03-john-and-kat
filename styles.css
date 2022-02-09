@@ -35,8 +35,7 @@ svg {
 
 .flex-item {
     border: 5px solid black;
-    flex-grow: 1;
-    min-width: 500px;
+    width: 500px;
 }
 
 .my-rect {
